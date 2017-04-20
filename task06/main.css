@@ -241,7 +241,7 @@ aside .left-detail {
 
 .article-1 {
   margin-top: 50px;
-  width: 50%;
+  width: 45%;
   float: left;
 }
 
@@ -292,7 +292,7 @@ aside .left-detail {
 .article-2 .s3-right {
   position: absolute;
   top: 20px;
-  left: 30px;
+  left: 5px;
 }
 
 .s3-right img {
