@@ -80,6 +80,7 @@ section .image-one {
 .image-one .image-one-1 {
   background-color: #155d02;
   width: 20%;
+  height: 310px;
   opacity: 0.5;
   position: absolute;
   top: 0;
@@ -90,6 +91,7 @@ section .image-one {
 .image-one .image-one-2 {
   background-color: #9e1111;
   width: 20%;
+  height: 310px;
   opacity: 0.5;
   position: absolute;
   top: 0;
@@ -239,7 +241,7 @@ aside .left-detail {
 
 .article-1 {
   margin-top: 50px;
-  width: 50%;
+  width: 45%;
   float: left;
 }
 
@@ -290,7 +292,7 @@ aside .left-detail {
 .article-2 .s3-right {
   position: absolute;
   top: 20px;
-  left: 30px;
+  left: 5px;
 }
 
 .s3-right img {
@@ -327,9 +329,9 @@ aside .left-detail {
 .s3-right-bottom {
   background-color: #c1e8e0;
   margin-top: 30px;
-  height: 350px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  height: 330px;
+  padding-top: 20px;
+  /*padding-bottom: 30px;*/
 }
 
 
@@ -357,7 +359,7 @@ aside .left-detail {
 
 .box {
   width: 55%;
-  height: 160px;
+  height: 150px;
   background-color: #da4e46;
   float: left;
 }
@@ -365,7 +367,7 @@ aside .left-detail {
 .box span {
   font-size: 110px;
   color: white;
-  padding: 0 10px;
+  padding: 10px 10px;
   float: left;
 }
 
@@ -423,6 +425,7 @@ aside .left-detail {
 }
 
 .footer-hr {
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 
