@@ -80,6 +80,7 @@ section .image-one {
 .image-one .image-one-1 {
   background-color: #155d02;
   width: 20%;
+  height: 310px;
   opacity: 0.5;
   position: absolute;
   top: 0;
@@ -90,6 +91,7 @@ section .image-one {
 .image-one .image-one-2 {
   background-color: #9e1111;
   width: 20%;
+  height: 310px;
   opacity: 0.5;
   position: absolute;
   top: 0;
