@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+textarea{resize: none;}
+
+/*************************
+        Navigate
+**************************/
+header {
+  width: 100%; 
+/*  min-width: 1280px;*/
+  height: 60px;
+  margin-top: 10px;
+}
+
+/*brand*/
+.brand img {
+  width: 20%;
+  vertical-align: middle;
+}
+
+.brand h1 {
+  display: inline-block;
+  font-size: 24px;
+  color: #999;
+  font-family: sans-serif;
+  margin-left: 10px;
+}
+
+.brand {
+  width: 100p;
+  float: left;
+  margin-left: 100px;
+}
+
+/* nav list*/
+header nav {
+  width: 100%;
+}
+
+header nav ul {
+  list-style: none;
+  float: right;
+  width: 75%;
+  margin-top: 0;
+  font-size: 16px;
+  text-align: right;
+  padding-right: 100px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 20px;
+  position: relative;
+  color: #999;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+nav li.selected a {
+  color: #E74F4D;
+  border-bottom: 5px solid #E74F4D;
+}
+
+nav li a:hover:not(.login) {
+  color: #E74F4D;
+  border-bottom: 5px solid #E74F4D;
+  transition: all ease 0.3s;
+}
+
+
+nav ul li a img {
+  position: absolute;
+  right: 95%; 
+  top: 10%;
+}
+
+nav ul li a.login {
+  color: #E74F4D;
+}
