@@ -357,7 +357,7 @@ select option:hover {
   width: 66%;
   height: 560px;
   text-align: center;
-} 
+}
 
 .s6-left div {
   padding-top: 100px;
@@ -445,5 +445,191 @@ select option:hover {
   opacity: 0.5;
 }
 
+/*****************************************************
+*****************************************************/
 
 
+/* box1*/
+#section-7 .box1 {
+  background-color: #BE4F48;
+  width: 33.33%;
+  height: 600px;
+  color: #fff;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 250px;
+  float: left;
+}
+
+#section-7 .box1 p, #section-7 .box1 .border-line {
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+#section-7 .box1 .border-line::after {
+  content: '';
+  display: block;
+  width: 30px;
+  border-bottom: 3px solid #fff;
+  margin: 15px auto;
+}
+
+#section-7 .box1 p button {
+  margin-top: 20px;
+  width: 30%;
+  height: 60%;
+  font-size: 0.9em;
+  color: #fff;
+  background-color: #BE4F48;
+  border: 1px solid #fff;
+}
+
+#section-7 .box1 p button:hover {
+  background-color: #fff;
+  color: #BE4F48;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  border-radius: 3px;
+}
+
+/*box2*/
+#section-7 .box2 {
+  background-color: #fff;
+  width: 33.33%;
+  height: 600px;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 250px;
+  float: left;
+  position: relative;
+}
+
+#section-7 .box2 p, #section-7 .box2 .border-line {
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+#section-7 .box2 .border-line::after {
+  content: '';
+  display: block;
+  width: 30px;
+  border-bottom: 3px solid #ADADAD;
+  margin: 15px auto;
+}
+
+#section-7 .box2 p button {
+  margin-top: 20px;
+  width: 30%;
+  height: 60%;
+  font-size: 0.9em;
+  color: #BE4F48;
+  background-color: #fff;
+  border: 1px solid #BE4F48;
+}
+
+#section-7 .box2 p button:hover {
+  background-color: #BE4F48;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  border-radius: 3px;
+}
+
+#section-7 .box2 p button::after {
+  content: '';
+  position: absolute;
+  border-width: 20px;
+  border-color: transparent transparent transparent #fff;
+  border-style: solid;
+  top: 240px;
+  left: 100%;
+}
+
+/* box 3*/
+#section-7 .box3 {
+  background-image: url(img/pic8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 33.33%;
+  height: 600px;
+  float: left;
+}
+
+/*************************
+    Section 8
+**************************/
+#section-8 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#section-8 header h3 {
+  text-align: center;
+  font-size: 1em;
+}
+
+#section-8 header h3::after {
+  content: '';
+  display: block;
+  width: 30px;
+  border-bottom: 3px solid #BE4F48;
+  margin: 10px auto;
+}
+
+#section-8 header p {
+  width: 40%;
+  margin: 20px auto;
+  color: #B3AFAC;
+  font-size: 0.9em;
+}
+
+/*************************
+    Footer
+**************************/
+
+footer {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  background-color: #33363F;
+  margin-top: 100px;
+  padding: 100px;
+}
+
+
+footer p {
+  color: #fff;
+}
+
+footer .footer-text {
+  width: 40%;
+  margin: 20px auto;
+  font-size: 0.9em;
+}
+
+input[type='email'] {
+  width: 40%;
+  height: 50px;
+  margin-top: 20px;
+  border: none;
+  font-size: 1em;
+  padding-left: 30px;
+}
+
+input[type='button'] {
+  width: 8%;
+  height: 50px;
+  margin-left: -4px;
+  background-color: #75757F;
+  color: #fff;
+  border: none;
+}
+
+input[type='email']:focus, input[type='email']:hover {
+  border: 1px solid #5E5E68;
+}
+
+input[type='button']:focus, input[type='button']:hover {
+  cursor: pointer;
+  background-color: #5E5E68;
+}
